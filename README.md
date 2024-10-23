@@ -5,6 +5,6 @@ I used Microchip/Atmel Studio 7 for this code development mainly as I like the A
 
 I've prepared 3 options.  There is code for 1 button only, 2 buttons and "n" buttons, where "n" is the number of buttons attached to the chip.  The "n" button code has 3 versions - version 1 uses CTC mode for the timer and specifies the pins used for the buttons in an array and all on port D.  Version 2 allows the Port to be specified in arrays.  Version 3 uses structs to define the pins and ports used.
 
-I've made libraries out of "N button v3" code as its the most generic and from the "One button" code as thats probably useful.  The others are just single files with the embedded code.  The way my code is written you have to add details of where the buttons are connected to the library ".c" file
+I've made libraries out of "n button v3" code as its the most generic and from the "One button" code as thats probably useful.  The others are just single files with the embedded code that might aid its understanding if you're interested.  The way my code is written you have to add details of where the buttons are connected to the library ".c" file
 
 Let me know if he code is useful to you!
